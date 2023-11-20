@@ -1000,13 +1000,13 @@ def homepage():
 	math_btn = Button(frame1, text = 'Math Quiz', bg = 'lightgrey', command = math_selected, padx = 10, pady =5, font = ('Ariel', 11,'bold'), cursor= 'tcross')
 	general_btn = Button(frame1, text = 'General Quiz', bg = 'lightgrey', command = general_selected,  padx = 10, pady =5, font = ('Ariel', 11,'bold'), cursor= 'tcross')
 	history_btn = Button(frame1, text = 'History Quiz', bg = 'lightgrey', command = history_selected,  padx = 10, pady =5, font = ('Ariel', 11,'bold'), cursor= 'tcross')
-	introduction_label = Label(frame1, text =  '*Note* Each quiz contains 20 questions and has a timer each question.', font = ('Ariel', 13,'bold'), bg = 'lightgrey', fg = 'firebrick3')
-	introduction_label1 = Label(frame1, text = "The math quiz has a time of 45 seconds, and the other two have 30 seconds. Click the button to start the quiz.", font = ('Ariel', 13,'bold'), bg = 'lightgrey', fg = 'firebrick3')
+	introduction_label1 = Label(frame1, text =  '*Note* Each quiz contains 20 questions and has a timer each question.', font = ('Ariel', 13,'bold'), bg = 'lightgrey', fg = 'firebrick3')
+	introduction_label2 = Label(frame1, text = "The math quiz has a time of 45 seconds, and the other two have 30 seconds. Click the button to start the quiz.", font = ('Ariel', 13,'bold'), bg = 'lightgrey', fg = 'firebrick3')
 	math_btn.pack(pady= 5)
 	general_btn.pack(pady= 5)
 	history_btn.pack(pady= 5)
-	introduction_label.pack()
 	introduction_label1.pack()
+	introduction_label2.pack()
 
 
 #If user want to do math quiz
