@@ -1,0 +1,194 @@
+{
+  "math_questions": [
+    "What is 8(-5) - (-8)?",
+    "Given a = 5 and b = 3, what is the value of (3a + 2b) / 3 ",
+    "A farmer has 100 chickens. If every chicken lays 1 egg per day, how many eggs does the farmer get in 1 week?",
+    "Given (X + 5) x 5 = 70 what is the value of X?",
+    "What is the area of a circle with a diameter of 20 inches if pi= 3.1415?",
+    "What is the square root of 144?",
+    "Given: 33, 55, 77, 99, ? What is the next number here?",
+    "Given: A is 1, O is 15, H is 8, U is ?",
+    "What is the sum of the angles in a triangle?",
+    "What is the approximate value of mathematical constant e",
+    "What shape is needed to fill in the question mark? Circle, Triangle, Diamond, Circle, ...?, Diamond, Circle",
+    "What is a prime number?",
+    "Which of these number is/are even number(s)?",
+    "What is the number needed to fill in the question mark? 100, 97.4, 94.8, ...? , 89.6, 87",
+    "What is the number needed to fill in the question mark? (36)(1216)(48), (24)(824)(72), (42)(...?)(51)",
+    "What is the next number in the sequence: 2, 4, 8, 16, 32, ...?",
+    "A farmer has 150 cows. He sells 2/5 of his cows. How many cows does he have left?",
+    "What is the next number in the sequence: 2, 6, 12, 20, 30, ...?",
+    "What is the area of a rectangle with length 8 cm and width 5 cm?",
+    "What is the value of 2^4 x 3^2?"
+  ],
+
+  "math_answers": [4, 2, 2, 1, 4, 3, 2, 1, 4, 3, 4, 2, 3, 1, 3, 2, 4, 1, 1, 3],
+
+  "math_answer_options": [
+    ["-18", "-27", "39", "-32"],
+    ["21", "7", "15", "9"],
+    ["250 eggs", "700 eggs", "500 eggs", "320 eggs"],
+    ["9", "12", "23", "4"],
+    ["380.1215 Inches", "3141.5 Inches", "1256.6 Inches", "314.15 Inches"],
+    ["14", "9", "12", "7"],
+    ["88", "121", "41", "100"],
+    ["21", "2", "17", "25"],
+    ["360 degrees", "45 degrees", "90 degrees", "180 degrees"],
+    ["3.14", "1.62", "2.72", "1.41"],
+    ["Square", "Rectangle", "Diamond", "Triangle"],
+    [
+      "Can be divided by 1, itself and 3",
+      "Can only be divided by 1 and itself",
+      "Can only be divided by 1 and 2",
+      "None of this is correct"
+    ],
+    ["22 and 17", "14", "22 and 14", "17"],
+    ["92.2", "91.2", "90.4", "93.8"],
+    ["528", "1052", "1417", "1215"],
+    ["36", "64", "27", "49"],
+    ["100 cows", "50 cows", "75 cows", "90 cows"],
+    ["42", "54", "18", "24"],
+    ["40 square cm", "13 square cm", "26 square cm", "58 square cm"],
+    ["81", "64", "144", "121"]
+  ],
+
+  "general_questions": [
+    "Which country has the most population?",
+    "Which country has the largest area?",
+    "How many planets are in the solar system?",
+    "Which planet is the closest to the Sun?",
+    "How many continents are there in the world?",
+    "Which country that had the sumurai?",
+    "Which of these colors is not featured in the logo for Google?",
+    "What is the chemical symbol for gold?",
+    "What is the most abundant element in the Earth?",
+    "What is the largest ocean in the world?",
+    "What is the most widely spoken language in the world?",
+    "Which is the world's largest rainforest?",
+    "What is the tallest mountain in the world?",
+    "What is the average time of a new child/childrens to born?",
+    "What is the largest organ in human body?",
+    "What is the largest mammal on Earth?",
+    "Which planet is known as the 'Red Planet'?",
+    "Who painted the Mona Lisa?",
+    "Which month that contains normally 28 days, and 29 days every four years?",
+    "Who wrote the famous tragedy 'Romeo and Juliet'?"
+  ],
+
+  "general_answers": [
+    2, 1, 3, 3, 4, 1, 1, 1, 3, 1, 2, 3, 1, 4, 4, 4, 2, 3, 2, 1
+  ],
+
+  "general_answer_options": [
+    ["Indonesia", "China", "India", "France"],
+    ["Russia", "America", "England", "Arfghanistan"],
+    ["12", "15", "8", "6"],
+    ["Earth", "Mercury", "Venus", "Mars"],
+    ["9", "12", "5", "7"],
+    ["Japan", "China", "South-Korea", "North-Korea"],
+    ["Pink", "Yellow", "Blue", "Red"],
+    ["Au", "Ag", "Cu", "Fe"],
+    ["oxygen", "Hydrogen", "Nitrogen", "Helium"],
+    ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Artic Ocean"],
+    ["English", "Mandarin Chinese", "Spanish", "Hindi"],
+    [
+      "Congo rainforest",
+      "Southeast Asian rainforest",
+      "Amazon rainforest",
+      "Temperate rainforest"
+    ],
+    ["Mount Everest", "Mount Fuji", "Mount Aural", "K2"],
+    [
+      "7 months and 15 days",
+      "8 months and 10 days",
+      "8 months and 21 days",
+      "9 months and 10 days"
+    ],
+    ["Brain", "Lungs", "Liver", "Skin"],
+    ["Elephant", "Giraffe", "Gorilla", "Blue whale"],
+    ["Venus", "Mars", "Jupiter", "Saturn"],
+    ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+    ["August", "February", "May", "November"],
+    [
+      "William Shakespeare",
+      "Christopher Marlowe",
+      "Ben Jonson",
+      "Francis Beaumont"
+    ]
+  ],
+
+  "history_questions": [
+    "When was the world war I started and ended?",
+    "When was the world war II started and ended?",
+    "Who was the leader of the Khmer Rouge during the Cambodian Genocide?",
+    "The ancient temple complex Angkor Wat is located in which Cambodian city?",
+    "Which period of Cambodia that is considered to have the most influence?",
+    "What is the independence day of Cambodia?",
+    "How many years has Cambodia been colonized by France?",
+    "What is strongest reason why Cambodia periods collapsed?",
+    "Which event marked the beginning of the World War I?",
+    "Which ancient civilization built the pyramids of Giza?",
+    "Which year did the Titanic sink?",
+    "Which ancient temple complex is a symbol of Cambodia and appears on the national flag?",
+    "What significant event in Cambodian history occurred on April 17, 1975?",
+    "Who was the first president of the United States?",
+    "Who was the leader of the Soviet Union during World War II?",
+    "In which year did the Berlin Wall fall, leading to the reunification of Germany?",
+    "When did Cambodia join ASEAN?",
+    "How many countries are there in ASEAN?",
+    "Which Khmer king is known for converting the empire to Mahayana Buddhism and building the Bayon temple?",
+    "Who was the founder of the Khmer Empire and the city of Angkor?"
+  ],
+
+  "history_answers": [
+    1, 3, 2, 4, 1, 1, 2, 2, 4, 3, 3, 1, 4, 2, 2, 3, 1, 4, 2, 3
+  ],
+
+  "history_asnwer_options": [
+    ["1914-1918", "1925-1929", "1912-1916", "1932-1935"],
+    ["1918-1922", "1915-1918", "1939-1945", "1928-1932"],
+    ["Hun Sen", "Pol Pot", "Norodom Sihanouk", "Lon Nol"],
+    ["Mondulkiri", "Phnom Penh", "Battambang", "Siem Reap"],
+    ["Angkor period", "Lungvek period", "Jaktomuk period", "Oudong period"],
+    [
+      "9 November 1953",
+      "9 December 1954",
+      "12 November 1953",
+      "9 October 1954"
+    ],
+    ["58 years", "90 years", "73 years", "84 years"],
+    [
+      "Lack human resource",
+      "Civil war",
+      "The country is too big to fully control",
+      "Neighboring countries' invasions"
+    ],
+    [
+      "Invasion of Poland",
+      "Bombing of Pearl Harbor",
+      "Treaty of Versailles",
+      "Assassination of Archduke Franz Ferdinand"
+    ],
+    ["Roman Empire", "Greek Civilization", "Ancient Egypt", "Mesopotamia"],
+    ["1920", "1905", "1912", "1932"],
+    ["Angkor Wat", "Bayon", "Preah Vihear", "Banteay Srei"],
+    [
+      "Independence Day",
+      "Khmer New Year",
+      "Coronation of King Norodom Sihamoni",
+      "Fall of Phnom Penh to the Khmer Rouge"
+    ],
+    ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "Jonh Adams"],
+    [
+      "Vladimir Putin",
+      "Joseph Stalin",
+      "Nikita Khrushchev",
+      "Mikhail Gorbachev"
+    ],
+    ["1993", "1992", "1989", "1985"],
+    ["30 April 1999", "24 April 1997", "15 May 1999", "17 June 1995"],
+    ["14", "11", "9", "10"],
+    ["Suryavarman I", "Jayavarman VII", "Rajendravarman II", "Yasovarman I"],
+    ["Jayavarman VII", "Suryavarman II", "Jayavarman II", "Yasovarman I"]
+  ]
+}
