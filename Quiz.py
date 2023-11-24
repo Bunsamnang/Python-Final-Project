@@ -205,12 +205,15 @@ class mathQuiz:
 	# question then it calls display result to show the message box.
 	# otherwise shows next question.
 	def next_btn(self):
-		# if the answer is correct it increments the correct by 1
-		if self.check_answer(self.q_no):
+
+		# Check if the answer is correct or not and that the users did select their answers
+		if self.check_answer(self.q_no) and not self.check_option_selected():
 			mb.showinfo('', 'Your answer is correct')
+			# if the answer is correct it increments the correct by 1
 			self.correct += 1
-		if not self.check_answer(self.q_no):
+		if not self.check_answer(self.q_no) and not self.check_option_selected():
 			mb.showinfo('', 'Your answer is incorrect')
+
 
 
 		# Check if users select their answer or not and the time is up or not after clicking the next button
@@ -220,8 +223,9 @@ class mathQuiz:
 			mb.showerror('Option not selected', 'Please select your answer!')
 
 		# Check if the time is up and also if the user did not select their answer
-		# if true, move to the next question
+		# if true, showinfor, and move to the next question
 		if self.check_option_selected() and self.remaining_time == 0:
+			mb.showinfo('', 'You did not select you answer!')
 			self.q_no += 1 
 			self.start_time = time.time()
 
@@ -244,6 +248,7 @@ class mathQuiz:
 			# shows the next question
 			self.display_question()
 			self.display_options()
+	
 	
 
 
@@ -523,14 +528,13 @@ class generalQuiz:
 	# otherwise shows next question.
 	def next_btn(self):
 		
-		# Check if the answer is correct
-		if self.check_answer(self.q_no):
+		# Check if the answer is correct or not and that the users did select their answers
+		if self.check_answer(self.q_no) and not self.check_option_selected():
 			mb.showinfo('', 'Your answer is correct')
 			# if the answer is correct it increments the correct by 1
 			self.correct += 1
-		if not self.check_answer(self.q_no):
+		if not self.check_answer(self.q_no) and not self.check_option_selected():
 			mb.showinfo('', 'Your answer is incorrect')
-
 
 
 
@@ -541,8 +545,9 @@ class generalQuiz:
 			mb.showerror('Option not selected', 'Please select your answer!')
 
 		# Check if the time is up and also if the user did not select their answer
-		# if true, move to the next question
+		# if true, showinfor, and move to the next question
 		if self.check_option_selected() and self.remaining_time == 0:
+			mb.showinfo('', 'You did not select you answer!')
 			self.q_no += 1 
 			self.start_time = time.time()
 
@@ -565,6 +570,7 @@ class generalQuiz:
 			# shows the next question
 			self.display_question()
 			self.display_options()
+	
 	
 
 
@@ -837,12 +843,12 @@ class historyQuiz:
 	# otherwise shows next question.
 	def next_btn(self):
 		
-		# Check if the answer is correct
-		if self.check_answer(self.q_no):
+		# Check if the answer is correct or not and that the users did select their answers
+		if self.check_answer(self.q_no) and not self.check_option_selected():
 			mb.showinfo('', 'Your answer is correct')
 			# if the answer is correct it increments the correct by 1
 			self.correct += 1
-		if not self.check_answer(self.q_no):
+		if not self.check_answer(self.q_no) and not self.check_option_selected():
 			mb.showinfo('', 'Your answer is incorrect')
 
 
@@ -854,8 +860,9 @@ class historyQuiz:
 			mb.showerror('Option not selected', 'Please select your answer!')
 
 		# Check if the time is up and also if the user did not select their answer
-		# if true, move to the next question
+		# if true, showinfor, and move to the next question
 		if self.check_option_selected() and self.remaining_time == 0:
+			mb.showinfo('', 'You did not select you answer!')
 			self.q_no += 1 
 			self.start_time = time.time()
 
