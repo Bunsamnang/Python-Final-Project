@@ -115,7 +115,7 @@ class mathQuiz:
 		self.remaining_time = max(0, self.time_limit - elapsed_time)
 
 		# Update the timer label
-		self.timer_label = Label(text=f"Time Remaining: {self.remaining_time} seconds", font = ('ariel', 15, 'bold'), bg = 'lightgrey', fg= 'firebrick1')
+		self.timer_label.config(text=f"Time Remaining: {self.remaining_time} seconds", font = ('ariel', 15, 'bold'), bg = 'lightgrey', fg= 'firebrick1')
 		self.timer_label.place(x = 800, y = 50)
 
 		# Check if time is up
@@ -355,7 +355,7 @@ class generalQuiz:
 		self.start_time = time.time()
 		
 		# Create label for the timer
-		self.timer_label = Label(root, text="ssdsf", font=('ariel', 12), bg='red')
+		self.timer_label = Label(root, text="", font=('ariel', 12), bg='red')
 
 		# Display title
 		self.display_title()
@@ -438,7 +438,7 @@ class generalQuiz:
 		self.remaining_time = max(0, self.time_limit - elapsed_time)
 
 		# Update the timer label
-		self.timer_label = Label(text=f"Time Remaining: {self.remaining_time} seconds", font = ('ariel', 15, 'bold'), bg = 'lightgrey', fg= 'firebrick1')
+		self.timer_label.config(text=f"Time Remaining: {self.remaining_time} seconds", font = ('ariel', 15, 'bold'), bg = 'lightgrey', fg= 'firebrick1')
 		self.timer_label.place(x = 800, y = 50)
 
 		# Check if time is up
@@ -670,7 +670,7 @@ class historyQuiz:
 		self.start_time = time.time()
 		
 		# Create label for the timer
-		self.timer_label = Label(root, text="ssdsf", font=('ariel', 12), bg='red')
+		self.timer_label = Label(root, text="", font=('ariel', 12), bg='red')
 
 		# Display title
 		self.display_title()
@@ -752,7 +752,7 @@ class historyQuiz:
 		self.remaining_time = max(0, self.time_limit - elapsed_time)
 
 		# Update the timer label
-		self.timer_label = Label(text=f"Time Remaining: {self.remaining_time} seconds", font = ('ariel', 15, 'bold'), bg = 'lightgrey', fg= 'firebrick1')
+		self.timer_label.config(text=f"Time Remaining: {self.remaining_time} seconds", font = ('ariel', 15, 'bold'), bg = 'lightgrey', fg= 'firebrick1')
 		self.timer_label.place(x = 800, y = 50)
 
 		# Check if time is up
